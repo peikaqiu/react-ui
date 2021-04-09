@@ -85,7 +85,7 @@ function App() {
 
         <Button size="lg">size Large</Button>
         <Button>size default</Button>
-        <Button size="sm">size small</Button>
+        <Button size="sm">size small & 点击显示alert</Button>
       </div>
 
 
