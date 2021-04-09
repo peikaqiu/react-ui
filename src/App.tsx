@@ -91,7 +91,7 @@ function App() {
 
       <div>
         <Alert onClose={() => { console.log('关闭后的回调'); }} title="title" alertType="default" showClose={true}></Alert>
-        <Alert onClose={() => { console.log('关闭后的回调'); }} title="title" alertType="success" showClose={true}>messagemessagemessagemessage</Alert>
+        <Alert onClose={() => { console.log('关闭后的回调'); }} title="title" alertType="success" showClose={true}>messagemessagemessagemessagemessage</Alert>
       </div>
 
       <Menu defaultIndex='0' onSelect={(index) => { console.log(index) }} defalutOpenSubMenus={['3']}>
