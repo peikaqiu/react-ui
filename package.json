@@ -1,6 +1,6 @@
 {
   "name": "ui-with-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "UI-WITH-REACT",
   "author": "HGH",
   "private": false,
@@ -41,7 +41,7 @@
     "clean": "rimraf ./dist",
     "lint": "eslint --ext js,ts,tsx src --max-warnings 10",
     "test:nowatch": "cross-env CI=true react-scripts test",
-    "prepublish": "npm run test:nowatch && npm run lint && npm run build"
+    "prepublishOnly": "npm run test:nowatch && npm run lint && npm run build"
   },
   "husky": {
     "hooks": {
